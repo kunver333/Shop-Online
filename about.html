@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products - SHOP ONLINE</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?
+    family=Poppins:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="http://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/new.css">
+</head>
+<body> 
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+            <img src="images/logo.jfif" alt="SHOP ONLINE"width="150px">
+          </div>
+          <nav>
+              <ul id="menuItems">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="products.html">Products</a></li>
+                  <li><a href="about.html">About Us</a></li>
+                  <li><a href="contactus.html">Contact Us</a></li>
+                  <li><a href="account.html">Account</a></li>
+              </ul>
+          </nav>
+          <a href="cart.html"> <img src="images/cart.png" width="30px" height="30px">
+          </a>
+          <img src="images/menu.png"class="menu-icon" onclick="menutoggle()">  
+    </div>
+  </div>
+  <div class="section">
+      <div class="about-container">
+          <div class="content-section">
+              <div class="title">
+                  <h1>About Us</h1>
+              </div>
+              <div class="content">
+                  <h3>Sell from anywhere, to anyone, at any time.</h3>
+                  <p> To acquire new customers and to maximize customer loyalty, you need to choreograph meaningful shopping experiences from start to finish. Our solution offers best-in-class tools for promotions and pricing, SEO, mobile, and more — so you can keep your brand top of mind and enable an optimized path to purchase for customers.</p>
+              </div>
+          </div>
+      </div>
+  </div>
+     <!----footer----->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Do Shopping!</h3>
+                <p>Use Website to get best Shopping Experience.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------js for toggle menu------->
+<script>
+    var MenuItems=document.getElementById("MenuItems");
+    MenuItems.style.maxHeight="0px";
+    function menutoggle(){
+        if(MenuItems .style.maxHeight="0px")
+        {
+            MenuItems.style.maxHeight="200px";
+        }
+        else{
+            MenuItems.style.maxHeight="0px";
+        }
+    }
+</script>
